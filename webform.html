@@ -1,0 +1,99 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Homework1</title>
+    <style type="text/css">
+        .auto-style5 {
+            text-align: left;
+        }
+        .auto-style6 {
+            width: 314px;
+            height: 83px;
+        }
+    </style>
+</head>
+<body>
+
+    <h5 style="text-align: center">
+        <strong style="font-size: xx-large">Sundell, Amy Homework 2</strong></h5>
+        <nav> 
+        <hr style="color:green"/>
+        <table>
+            <td>
+                <a href="default.html">Home</a> |
+                <a href="webform.html">Web Form Demo</a>|
+                <a href="aboutme.html">About Me</a>
+            </td>
+        </table>
+    </nav>
+        <br />
+    
+    <br />
+    <h2 class="auto-style5">
+        Welcome to my Web Form.</h2>
+    
+    <p class="auto-style5">
+        A demo form for a hotel room reservation.</p>
+    <p style="text-align: center">
+        &nbsp;</p>
+    
+    <form action="mailto:amy@private.com" method="post" enctype="text/plain" autocomplete="on" />
+        <fieldset>
+        <legend>Customer Information</legend>
+        Full Name: <input type="text" size="30" value="Firstname Lastname" tabindex="0" />
+            <br />
+            
+            E-mail: <input type="text" size="30"/><br />
+            
+            Phone: <input type="text" size="30" /><br />
+         </fieldset>
+       
+    <br />
+        <br />
+    <fieldset>
+        <legend>Room Information</legend>
+        Arrival Date: <input type="date" name="arrival date"/>
+        <br />
+        <br />
+        Arrival Time: <input type="time" name="arrival time" />
+        
+        <br />
+        <br />
+        Select a room option type:<select>
+                 <option>Luxury</option>
+            <option>Standard</option>
+            <option >Economic</option>
+                 </select>
+
+        
+         <br />
+        <br />
+        Number of nights (valid from 1 to 30): <input type="number" min="1" max="30" />
+        <br />
+                <br />
+        Number of additional guests (3 guests maximum):<select>
+            <option>0</option>
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+                 </select><br />
+        <br />
+
+        </fieldset>
+    <fieldset>
+        <legend>Other Information</legend>
+               Promo code: <input type="number" min="4" max="4" /><br />
+
+        Special note: <input type="text" size="30" class="auto-style6"/>
+                    </fieldset>
+         <br />
+   <button type="reset">Clear Form</button><button type="submit">Request Reservation</button>
+        <br />
+    <br />
+    <footer>
+        Contact Information<br />
+        <a href="amy@private.com">E-mail:amy@private.com</a><br />
+        Phone: 714/123-4567
+    </footer>
+</body>
+</html>

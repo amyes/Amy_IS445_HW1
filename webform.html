@@ -40,12 +40,12 @@
     <form action="mailto:amysundell@gmail.com" method="post" enctype="text/plain" autocomplete="on" onsubmit="return validateForm()" />
         <fieldset>
         <legend>Customer Information</legend>
-        Full Name: <input type="text" size="30" value="Firstname Lastname" tabindex="1" required="all"/>
+        Full Name(First Name Last Name): <input type="text" size="30" tabindex="1" required/>
             <br />
             
-            E-mail: <input type="text" size="30" tabindex="2"/><br />
+            E-mail: <input type="text" size="30" tabindex="2" required/><br />
             
-            Phone: <input type="text" size="30" tabindex="3"/><br />
+            Phone: <input type="text" size="30" tabindex="3" required/><br />
          </fieldset>
        
     <br />
@@ -185,7 +185,7 @@
         <legend>Other Information</legend>
                Promo code: <input type="number" min="4" max="4" /><br />
 
-        Special note: <input type="text" size="30" class="auto-style6"/>
+        Special note: <input type="text" size="30" class="auto-style6" value="Enter special notes here"/>
                     </fieldset>
          <br />
    <button type="reset">Clear Form</button><button type="submit">Request Reservation</button>

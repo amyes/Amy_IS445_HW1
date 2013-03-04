@@ -1,5 +1,5 @@
 
-
+body {width:600px; margin:auto;}
 header {text-align:center; font-size:x-large; padding:20px}
 nav {padding-bottom:20px;}
 nav li {float:right; display:inline; padding:20px}

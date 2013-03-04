@@ -1,0 +1,33 @@
+body {
+width:200px;
+padding:10px;
+margin:0px; 
+}
+
+header {text-align:center; font-size:x-large; padding:20px}
+nav {padding-bottom:20px;}
+nav li {float:right; display:inline; padding:20px}
+
+hr {color:green;padding:10px}
+
+a:hover {text-decoration:underline; color:red; text-transform:uppercase}
+form {
+border:10px solid green;
+padding-top:10px;
+padding-bottom:10px;
+padding-right:10px;
+padding-left:10px;
+}
+
+h1 {text-align:center; color:blue; padding-top:20px}
+h2 {text-align:center; color:purple;}
+h3 {text-align:left;font-size:large; color:purple;}
+
+img.profile
+{
+height:200px;
+width:200px;
+float:right;
+}
+footer {border-top:double; padding-top:5px; margin:5px;}
+footer li{display:inline;}

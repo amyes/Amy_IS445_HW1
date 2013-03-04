@@ -1,43 +1,28 @@
 ﻿<!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
 <head>
-    <title>Homework1</title>
-    <style type="text/css">
-        .auto-style5 {
-            text-align: left;
-        }
-        .auto-style6 {
-            width: 314px;
-            height: 83px;
-        }
-    </style>
+    <title>Homework3</title>
+    <link href="css/HW3.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
 
-    <h5 style="text-align: center">
-        <strong style="font-size: xx-large">Sundell, Amy Homework 2</strong></h5>
+    <header><p>Sundell, Amy Homework 3</p></header>
         <nav> 
-        <hr style="color:green"/>
-        <table>
-            <td>
-                <a href="default.html">Home</a> |
-                <a href="webform.html">Web Form Demo</a>|
-                <a href="aboutme.html">About Me</a>
-            </td>
-        </table>
-    </nav>
-        <br />
+        <hr/>
+        <div>
+            <ul>
+                <li><a href="aboutme.html">About Me</a></li>
+                <li><a href="webform.html">Web Form Demo</a></li>
+                <li><a href="default.html">Home</a></li>
+            </ul>
+        </div>
+
+        </nav>
+     <h1>Welcome to my Web Form.</h1>
+     <h2>A demo form for a hotel room reservation.</h2>
     
-    <br />
-    <h2 class="auto-style5">
-        Welcome to my Web Form.</h2>
-    
-    <p class="auto-style5">
-        A demo form for a hotel room reservation.</p>
-    <p style="text-align: center">
-        &nbsp;</p>
-    
-    <form action="mailto:amysundell@gmail.com" method="post" enctype="text/plain" autocomplete="on" onsubmit="return validateForm()" />
+   
+    <form action="mailto:amysundell@gmail.com" method="post" enctype="text/plain" autocomplete="on" onsubmit="return validateForm()" >
         <fieldset>
         <legend>Customer Information</legend>
         Full Name: <input type="text" size="30" tabindex="1" required/>
@@ -191,10 +176,15 @@
    <button type="reset">Clear Form</button><button type="submit">Request Reservation</button>
         <br />
     <br />
-    <footer>
-        Contact Information<br />
-        <a href="amy@private.com">E-mail:amy@private.com</a><br />
-        Phone: 714/123-4567
+    </form>
+   <footer>
+        <address>
+            <ul>
+        <li>Amy Sundell &#169; Contact information </li>
+        <li><a href="amy@private.com">E-mail:amy@private.com</a></li>
+        <li>Phone: 714/123-4567</li>
+            </ul>
+        </address>
     </footer>
 </body>
 </html>

@@ -19,7 +19,7 @@ h1 {text-align:center; color:blue; padding-top:20px}
 h2 {text-align:center; color:purple;}
 h3 {text-align:left;font-size:large; color:purple;}
 
-img.profile
+img
 {
 height:200px;
 width:200px;
@@ -30,4 +30,4 @@ footer {
     margin-top: 20px;
     padding-top:5px;
 }
-footer li{display:inline;}
+footer li{display:inline; font-size:small; padding:10px;}

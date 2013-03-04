@@ -1,6 +1,6 @@
 
-body {width:600px; margin:auto;}
-header {text-align:center; font-size:x-large; padding:20px}
+body {width:500px; margin:auto; position:relative;}
+header {text-align:center; font-size:x-large; padding-bottom:10px}
 nav {padding-bottom:20px;}
 nav li {float:right; display:inline; padding:20px}
 
@@ -25,5 +25,9 @@ height:200px;
 width:200px;
 float:right;
 }
-footer {border-top:double; padding-top:5px; margin:5px;}
+footer {
+    border-top: double;
+    margin-top: 20px;
+    padding-top:5px;
+}
 footer li{display:inline;}

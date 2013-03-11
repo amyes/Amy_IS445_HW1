@@ -1,37 +1,19 @@
-﻿/** * Eric Meyer's Reset CSS v2.0 (http://meyerweb.com/eric/tools/css/reset/) * http://cssreset.com */
+﻿body {
+  width:1000px; margin-left:auto; margin-right:auto; 
 
-html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline;
-}
-/* HTML5 display-role reset for older browsers */
-
-article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
-  display: block;
 }
 
-body {
-  line-height: 1;
+header {
+  width:1000px; background-color:purple; text-align:center; color:white; height:30px;
 }
-
-ol, ul {
-  list-style: none;
+nav {
+  width:1000px; background-color:#746366; text-align:center; color:white; height:30px;
 }
+nav li {display:inline; margin:30px}
 
-blockquote, q {
-  quotes: none;
-}
+article { background-color:pink; width:700px; text-align:center;  color:white; float:left;}
+article section {background-color:darkviolet; text-align:center; margin: 10px 0px; height:150px; color:white;}
+  
+aside{ width:300px; background-color:darkslategray; text-align:center; color:white; height:350px; float:right;}
 
-  blockquote:before, blockquote:after, q:before, q:after {
-    content: '';
-    content: none;
-  }
-
-table {
-  border-collapse: collapse;
-  border-spacing: 0;
-}
+footer {width:1000px; background-color:darkkhaki; height:40px; text-align:center; color:white; clear:both; }

@@ -13,8 +13,8 @@ nav {
 nav li {display:inline; margin:30px}
 
 article { background-color:pink; width:300px; color:white}
-article section {background-color:darkviolet; margin:20px 0px 20px; height:100px; color:white;}
+article section {background-color:darkviolet; margin:20px 0px 20px; height:150px; color:white;}
   
-aside{ width:200px; background-color:darkslategray; height:100px; color:white;}
+aside{ width:200px; background-color:darkslategray; height:150px; color:white;}
 
 footer {width:680px; background-color:darkkhaki; height:40px; text-align:center; color:white;}

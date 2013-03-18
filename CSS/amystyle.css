@@ -1,2 +1,12 @@
-﻿body {
+﻿body
+{
+}
+h1 {
+    font-size: 4em;
+}
+h3 {
+    color: red;
+}
+p {
+    border: 4px solid green;
 }

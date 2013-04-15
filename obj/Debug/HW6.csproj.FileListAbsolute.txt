@@ -1,0 +1,5 @@
+C:\Users\Primary\Homework6\HW6\HW6\bin\HW6.dll
+C:\Users\Primary\Homework6\HW6\HW6\bin\HW6.pdb
+C:\Users\Primary\Homework6\HW6\HW6\obj\Debug\HW6.csprojResolveAssemblyReference.cache
+C:\Users\Primary\Homework6\HW6\HW6\obj\Debug\HW6.dll
+C:\Users\Primary\Homework6\HW6\HW6\obj\Debug\HW6.pdb

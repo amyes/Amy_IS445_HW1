@@ -1,68 +1,43 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="default.aspx.cs" Inherits="HW6._default" %>
+﻿<%@ Page Title="" Language="VB" MasterPageFile="~/MasterPage.master" AutoEventWireup="false" CodeFile="default.aspx.vb" Inherits="_default" %>
 
-<!DOCTYPE html>
+<asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
+    <pre id="line1"><span class="doctype">&lt;!DOCTYPE html&gt;</span><span>
+<span id="line2"></span>&lt;<span class="start-tag">html</span>&gt;
+<span id="line3"></span>&lt;<span class="start-tag">head</span>&gt;
+<span id="line4"></span>    &lt;<span class="start-tag">title</span>&gt;Homework3&lt;/<span class="end-tag">title</span>&gt;
+<span id="line5"></span>    &lt;<span class="start-tag">link</span> <span class="attribute-name">href</span>=&quot;<a class="attribute-value" href="view-source:file:///C:/Users/Primary/homework3/css/HW3.css">css/HW3.css</a>&quot; <span class="attribute-name">rel</span>=&quot;<a class="attribute-value">stylesheet</a>&quot; <span class="attribute-name">type</span>=&quot;<a class="attribute-value">text/css</a>&quot;/&gt;
+<span id="line6"></span>&lt;/<span class="end-tag">head</span>&gt;
+<span id="line7"></span>&lt;<span class="start-tag">body</span>&gt;
+<span id="line8"></span>    &lt;<span class="start-tag">header</span>&gt;Sundell, Amy Homework 3&lt;/<span class="end-tag">header</span>&gt;
+<span id="line9"></span>        &lt;<span class="start-tag">nav</span>&gt; 
+<span id="line10"></span>        &lt;<span class="start-tag">hr</span>/&gt;
+<span id="line11"></span>        &lt;<span class="start-tag">div</span>&gt;
+<span id="line12"></span>            &lt;<span class="start-tag">ul</span>&gt;
+<span id="line13"></span>               &lt;<span class="start-tag">li</span>&gt;&lt;<span class="start-tag">a</span> <span class="attribute-name">href</span>=&quot;<a class="attribute-value" href="view-source:file:///C:/Users/Primary/homework3/aboutme.html">aboutme.html</a>&quot;&gt;About Me&lt;/<span class="end-tag">a</span>&gt;&lt;/<span class="end-tag">li</span>&gt;
+<span id="line14"></span>                &lt;<span class="start-tag">li</span>&gt;&lt;<span class="start-tag">a</span> <span class="attribute-name">href</span>=&quot;<a class="attribute-value" href="view-source:file:///C:/Users/Primary/homework3/webform.html">webform.html</a>&quot;&gt;Web Form Demo&lt;/<span class="end-tag">a</span>&gt;&lt;/<span class="end-tag">li</span>&gt;
+<span id="line15"></span>                &lt;<span class="start-tag">li</span>&gt;&lt;<span class="start-tag">a</span> <span class="attribute-name">href</span>=&quot;<a class="attribute-value" href="view-source:file:///C:/Users/Primary/homework3/default.html">default.html</a>&quot;&gt;Home&lt;/<span class="end-tag">a</span>&gt;&lt;/<span class="end-tag">li</span>&gt;
+<span id="line16"></span>            &lt;/<span class="end-tag">ul</span>&gt;
+<span id="line17"></span>        &lt;/<span class="end-tag">div</span>&gt;
+<span id="line18"></span>          
+<span id="line19"></span>    &lt;/<span class="end-tag">nav</span>&gt;
+<span id="line20"></span>
+<span id="line21"></span>   
+<span id="line22"></span>        &lt;<span class="start-tag">h1</span>&gt;Welcome to my home page.&lt;/<span class="end-tag">h1</span>&gt;
+<span id="line23"></span>        &lt;<span class="start-tag">h2</span>&gt;Please click on a link to visit my other pages.&lt;/<span class="end-tag">h2</span>&gt;
+<span id="line24"></span>       
+<span id="line25"></span>
+<span id="line26"></span>    &lt;<span class="start-tag">footer</span>&gt;
+<span id="line27"></span>        &lt;<span class="start-tag">address</span>&gt;
+<span id="line28"></span>            &lt;<span class="start-tag">ul</span>&gt;
+<span id="line29"></span>        &lt;<span class="start-tag">li</span>&gt;Amy Sundell <span class="entity">&amp;#169;</span> Contact information &lt;/<span class="end-tag">li</span>&gt;
+<span id="line30"></span>        &lt;<span class="start-tag">li</span>&gt;&lt;<span class="start-tag">a</span> <span class="attribute-name">href</span>=&quot;<a class="attribute-value" href="view-source:file:///C:/Users/Primary/homework3/amy@private.com">amy@private.com</a>&quot;&gt;E-mail:amy@private.com&lt;/<span class="end-tag">a</span>&gt;&lt;/<span class="end-tag">li</span>&gt;
+<span id="line31"></span>        &lt;<span class="start-tag">li</span>&gt;Phone: 714/123-4567&lt;/<span class="end-tag">li</span>&gt;
+<span id="line32"></span>            &lt;/<span class="end-tag">ul</span>&gt;
+<span id="line33"></span>        &lt;/<span class="end-tag">address</span>&gt;
+<span id="line34"></span>    &lt;/<span class="end-tag">footer</span>&gt;
+<span id="line35"></span>&lt;/<span class="end-tag">body</span>&gt;
+<span id="line36"></span>&lt;/<span class="end-tag">html</span>&gt;</span></pre>
+</asp:Content>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head runat="server">
-    <title>Homework 6</title>
-    <link href="Css/StyleSheet1.css" rel="stylesheet" />
-</head>
-<body>
-    
-    <form method="post" action="default.aspx" id="form1" runat="server">
-    <div>
-        <asp:Panel ID="Panel1" runat="server" HorizontalAlign="Center">
-            <br />
-            <h1> A Demo of Wizard Server Control</h1><br />
-            <br />
-            <asp:Wizard ID="Wizard1" runat="server" Width="936px" ActiveStepIndex="0" Height="293px" OnFinishButtonClick="Wizard1_FinishButtonClick">
-                <FinishNavigationTemplate>
-                    <asp:Button ID="FinishPreviousButton" runat="server" CausesValidation="False" CommandName="MovePrevious" Text="Previous" />
-                    <asp:Button ID="FinishButton" runat="server" CommandName="MoveComplete" Text="Finish" />
-                </FinishNavigationTemplate>
-                <StartNavigationTemplate>
-                    <asp:Button ID="StartNextButton" runat="server" CommandName="MoveNext" Text="Next" />
-                </StartNavigationTemplate>
-                <WizardSteps>
-                    <asp:WizardStep runat="server" title="User Information">
-                        <asp:Label ID="NameLabel" runat="server" Text="Name:" ></asp:Label>
-                        <asp:TextBox ID="NameTextBox" runat="server"></asp:TextBox>
-                        <br />
-                        <asp:Label ID="AddressLabel" runat="server" CssClass="auto-style1" Text="Address:"></asp:Label>
-                        <asp:TextBox ID="AddressTextBox" runat="server" Height="75px" Width="236px" CssClass="auto-style1"></asp:TextBox>
-                    </asp:WizardStep>
-                    <asp:WizardStep runat="server" title="Payment Information" StepType="Finish">
-                        Card Type:
-                        <asp:DropDownList ID="CardType" runat="server" OnSelectedIndexChanged="CardType_SelectedIndexChanged" AutoPostBack="True">
-                            <asp:ListItem>Visa</asp:ListItem>
-                            <asp:ListItem>MasterCard</asp:ListItem>
-                            <asp:ListItem>American Express</asp:ListItem>
-                            <asp:ListItem>Discover</asp:ListItem>
-                        </asp:DropDownList>
-                        <br/>Card Number:
-                        <asp:TextBox ID="CardNumber" runat="server"></asp:TextBox>
-                        <br />
-                        Card Expiration:<br/>
-                        <asp:Calendar ID="Calendar1" runat="server" BackColor="White" BorderColor="#3366CC" BorderWidth="1px" CellPadding="1" DayNameFormat="Shortest" Font-Names="Verdana" Font-Size="8pt" ForeColor="#003399" Height="200px" Width="220px" OnSelectionChanged="Calendar1_SelectionChanged">
-                            <DayHeaderStyle BackColor="#99CCCC" ForeColor="#336666" Height="1px" />
-                            <NextPrevStyle Font-Size="8pt" ForeColor="#CCCCFF" />
-                            <OtherMonthDayStyle ForeColor="#999999" />
-                            <SelectedDayStyle BackColor="#009999" Font-Bold="True" ForeColor="#CCFF99" />
-                            <SelectorStyle BackColor="#99CCCC" ForeColor="#336666" />
-                            <TitleStyle BackColor="#003399" BorderColor="#3366CC" BorderWidth="1px" Font-Bold="True" Font-Size="10pt" ForeColor="#CCCCFF" Height="25px" />
-                            <TodayDayStyle BackColor="#99CCCC" ForeColor="White" />
-                            <WeekendDayStyle BackColor="#CCCCFF" />
-                        </asp:Calendar>
-                        
-                    </asp:WizardStep>
-                    <asp:WizardStep runat="server" Title="Done" StepType="Complete">
-                        <asp:Label ID="Done" runat="server"></asp:Label>
-                    </asp:WizardStep>
-                </WizardSteps>
-            </asp:Wizard>
-        </asp:Panel>
-    </div>
-                <asp:TextBox ID="SetDate" runat="server" Visible="False" OnDataBinding="Calendar1_SelectionChanged" OnTextChanged="Calendar1_SelectionChanged"></asp:TextBox>
-    </form>
-</body>
-</html>

@@ -7,7 +7,7 @@
 <span id="line2"></span>&lt;<span class="start-tag">html</span>&gt;
 <span id="line3"></span>&lt;<span class="start-tag">head</span>&gt;
 <span id="line4"></span>    &lt;<span class="start-tag">title</span>&gt;Homework3&lt;/<span class="end-tag">title</span>&gt;
-<span id="line5"></span>    &lt;<span class="start-tag">link</span> <span class="attribute-name">href</span>=&quot;<a class="attribute-value" href="view-source:file:///C:/Users/Primary/homework3/css/HW3.css">css/HW3.css</a>&quot; <span class="attribute-name">rel</span>=&quot;<a class="attribute-value">stylesheet</a>&quot; <span class="attribute-name">type</span>=&quot;<a class="attribute-value">text/css</a>&quot;/&gt;
+<span id="line5"></span>    
 <span id="line6"></span>&lt;/<span class="end-tag">head</span>&gt;
 <span id="line7"></span>&lt;<span class="start-tag">body</span>&gt;
 <span id="line8"></span>&lt;<span class="start-tag">header</span>&gt;&lt;<span class="start-tag">p</span>&gt;Sundell, Amy Homework 7&lt;/<span class="end-tag">p</span>&gt;&lt;/<span class="end-tag">header</span>&gt;
